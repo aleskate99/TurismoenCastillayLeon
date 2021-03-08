@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" >
+            <title></title>
+    </head>
+    
+    <style>
+      
+        a:link {
+          color: red;
+        }
+        
+        a:visited {
+          color: green;
+        }
+        
+        a:hover {
+          color: purple;
+        }
+        
+       
+        a:active {
+          color: blue;
+        }
+        </style>
+    <body> 
+        <style>
+            body {
+              background:rgb(220, 252, 241)
+            }
+        </style>
+        <center><h1>Contacto</h1></center>
+        <p>Bienvenido a la sección de contacto, si tiene alguna duda acerca de la página web o quiere ponerse en contacto con el creador porfavor pinche en el enlace de abajo para ponerse en contacto via correo electrónico.</p>
+        <p><a href="mailto:alejandro.blancogonzalez@yahoo.es">Correo electrónico del webmaster</a></p>
+        <h2>Formulario</h2> 
+<form action="respuestaformulario.html" method="get">
+    <label for="nombre">Escriba su nombre</label>
+    <input type="text" name="nombre" id="nombre" size="8" maxlength="20"></size><br><br>
+
+    <label for="apellidos">Escriba sus apellidos </label>
+    <input type="text" name="apellidos" id="apellidos" size="15" maxlength="20"></size><br><br>
+
+    <label for="nacimiento">Seleccione su fecha de nacimineto:</label>
+    <input type="date" id="nacimiento" name="nacimiento"><br><br>
+
+    <label for="sexo">Seleccione su sexo</label><br>
+    <input type="radio" id="hombre" name="sexo" value="hombre">
+    <label for="hombre">Hombre</label><br>
+    <input type="radio" id="mujer" name="sexo" value="mujer">
+    <label for="mujer">Mujer</label><br>
+    <input type="radio" id="other" name="sexo" value="otro">
+    <label for="otro">Otro</label><br><br>
+
+    <label for="provincia" id="provincia">Seleccione su provincia</label><br> 
+   <select name="provincia">
+        <optgroup label="Cantabria">
+            <option value="Santander">Santander</option>
+        </optgroup>
+        <optgroup label="CastillayLeón">
+	        <option value="avila">Ávila</option>
+	        <option value="burgos">Burgos</option>
+            <option value="leon">León</option>
+            <option value="palencia">Palencia</option>
+            <option value="segovia">Segovia</option>
+            <option value="soria">Soria</option>
+            <option value="salamanca">Salamanca</option>
+            <option value="valladolid">Valladolid</option>
+            <option value="zamora">Zamora</option>
+       </optgroup>
+       <optgroup label="Galicia">
+            <option value="Coruña">Coruña</option>
+            <option value="Lugo">Lugo</option>
+            <option value="Ourense">Ourense</option>
+            <option value="Ourense">Pontevedra</option>
+        </optgroup>
+        <optgroup label="Asturias">
+            <option value="Asturias">Asturias</option>
+        </optgroup>
+        <optgroup label="PaisVasco">
+            <option value="Vizcaya">Vizcaya</option>
+            <option value="Alava">Álva</option>
+            <option value="Gipuzcoa">Gipuzcoa</option>
+        </optgroup>
+        <optgroup label="Navarra">
+            <option value="Navarra">Navarra</option>
+        </optgroup>
+        <optgroup label="Aragón">
+            <option value="Zaragoza">Zaragoza</option>
+            <option value="Huesca">Huesca</option>
+            <option value="Teruel">Teruel</option>
+        </optgroup>
+        <optgroup label="Cataluña">
+            <option value="Barcelona">Barcelona</option>
+            <option value="Lerida">Lerida</option>
+            <option value="Tarragona">Tarragona</option>
+            <option value="Gerona">Gerona</option>
+        </optgroup>
+        <optgroup label="ComunidadValenciana">
+            <option value="Valencia">Valencia</option>
+            <option value="Alicante">Alicante</option>
+            <option value="Castellon">Castellón</option>
+        </optgroup>
+        <optgroup label="Murcia">
+            <option value="Murcia">Murcia</option>
+        </optgroup>
+        <optgroup label="Extremadura">
+            <option value="Caceres">Cáceres</option>
+            <option value="Badajoz">Badajoz</option>
+        </optgroup>
+        <optgroup label="Madrid">
+            <option value="Madrid">Madrid</option>
+        </optgroup>
+        <optgroup label="LaRioja">
+            <option value="LaRioja">La Rioja</option>
+        </optgroup>
+        <optgroup label="Andalucia">
+	        <option value="Sevilla">Sevilla</option>
+	        <option value="Huelva">Huelva</option>
+            <option value="Malaga">Malaga</option>
+            <option value="Cadiz">Cadiz</option>
+            <option value="Cordoba">Cordoba</option>
+            <option value="Jaen">Jaen</option>
+            <option value="Granada">Granada</option>
+            <option value="Almeria">Almería</option>
+       </optgroup>
+       <optgroup label="CastillaylaMancha">
+            <option value="CiudadReal">Ciudad Real</option>
+            <option value="Guadalajara">Guadalajara</option>
+            <option value="Cuenca">Cuenca</option>
+            <option value="Albacete">Albacete</option>
+            <option value="Toledo">Toledo</option>
+        </optgroup>
+        <optgroup label="Canarias">
+            <option value="GranCanarias">Gran Canarias</option>
+            <option value="Tenerife">Tenerife</option>
+            <option value="Palma">Palma</option>
+            <option value="Hierro">Hierro</option>
+            <option value="LaGomera">La Gomera</option>
+            <option value="Lanzarote">Lanzarote</option>
+            <option value="Fuerteventura">Fuerteventura</option>
+        </optgroup>
+        <optgroup label="Baleares">
+            <option value="Mallorca">Mallorca</option>
+            <option value="Menorca">Menorca</option>
+            <option value="Ibiza">Ibiza</option>
+        </optgroup>
+        <optgroup label="CiudadesAutónomas">
+            <option value="Ceuta">Ceuta</option>
+            <option value="Melilla">Melilla</option>
+        </optgroup>
+
+
+    </select> <br><br> 
+
+    <label for="codigo">Escriba su codigo postal </label>
+    <input type="number" name="codigo" id="codigo" size="8" maxlength="20"></size><br><br>
+
+    <input type="submit" value="Enviar" id="identificador">
+    <input type="reset"><br><br>
+    <input type="button" onclick="alert('Formulario enviado!')" value="Pulsa al finalizar!">
+
+        <p> <a href="../index/index.html">Volver</a></p>
+    </body>
+</html>  
